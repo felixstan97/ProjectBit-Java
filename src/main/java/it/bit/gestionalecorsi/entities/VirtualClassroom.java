@@ -1,23 +1,19 @@
-package it.bit.gestionalecorsi.domain;
+package it.bit.gestionalecorsi.entities;
 
 public class VirtualClassroom extends Classroom{
 
-    private String piattaforma;
+    private String platform;
     private String link;
     private String password;
 
     @Override
     public boolean hasComputer() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean hasProjectors() {
-        return false;
+        return true;
     }
 
-    @Override
-    public boolean hasComputerAndProjectors() {
-        return false;
-    }
 }
