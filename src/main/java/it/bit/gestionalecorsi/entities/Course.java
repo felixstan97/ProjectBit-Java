@@ -9,7 +9,7 @@ public class Course {
     private int duration;
     private double cost;
     private String program;
-    private String certification;
+    private boolean certification;
     private String category;
     private List<CourseEdition> editions;
 

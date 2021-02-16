@@ -13,5 +13,6 @@ public class CourseEdition {
    private List<Module> modules;
    private List<Session> sessions;  // quando dovrebbero sostenersi le lezioni
    private Employee responsible;
+   private Course course;
 
 }

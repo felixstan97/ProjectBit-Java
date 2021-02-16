@@ -2,18 +2,17 @@ package it.bit.gestionalecorsi.entities;
 
 public class RealClassroom extends Classroom{
 
-    public enum EQUIPMENT {PC, PROJECTOR, NOTHING, FULL}
 
-    private EQUIPMENT tech;
+    private Equipment tech;
 
     @Override
     public boolean hasComputer() {
-        return tech == EQUIPMENT.PC || tech == EQUIPMENT.FULL;
+        return tech == Equipment.PC || tech == Equipment.FULL;
     }
 
     @Override
     public boolean hasProjectors() {
-        return tech == EQUIPMENT.PROJECTOR || tech == EQUIPMENT.FULL;
+        return tech == Equipment.PROJECTOR || tech == Equipment.FULL;
     }
 
 }
