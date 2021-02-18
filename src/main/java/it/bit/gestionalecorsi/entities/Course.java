@@ -13,4 +13,12 @@ public class Course {
     private String category;
     private List<CourseEdition> editions;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }
